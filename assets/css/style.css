@@ -1,0 +1,216 @@
+header {
+    display: flex;
+    padding: 2%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Comic Neue';
+    font-weight: 600;
+}
+
+ /* TIPOGRAFÍA 
+ .gluten-400 {
+    font-family: "Gluten", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  } */
+  
+
+body{
+    font-family: 'Comic Neue';
+}
+
+#logo img{
+    width: 150px;
+}
+
+.menu_list{
+    display: flex;
+    width: 850px;
+    background-color: #3C8491;
+    justify-content: center;
+    border-radius: 25px;
+    color: white;
+    font-size: 28px;
+}
+
+.primer_item_menu{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 35px;
+    padding-right: 15px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.ultimo_item_menu{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 35px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.item_menu{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.item_menu:hover, .primer_item_menu:hover, .ultimo_item_menu:hover{
+    background-color: #F6CB2D;
+    color: #3C8491;
+}
+
+.social{
+    display: flex;
+    font-size: 32px;
+    gap: 24px;
+    color: #3C8491;
+    width: 250px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/Rectángulo\ 47.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: -110px;
+}
+
+#figura-1{
+    width: 350px;
+    margin-top: -200px;
+}
+
+/*ALINEACIÓN Y ESPACIADO DEL HEADER*/
+#menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: end;
+    gap: 22px;
+    font-size: 22px;
+}
+
+
+/*-------SLIDER PRINCIPAL-----------*/
+.slider_principal{
+    position: relative;
+    overflow: hidden;
+}
+
+.slides{
+    display: flex;
+    width: 300%;
+    height: 850px;
+}
+
+.slide{
+    width: calc(100% / 3);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.slide img{
+    object-fit: cover;
+    height: 850px;
+    width: 100%;
+}
+
+.btn_L, .btn_R{
+display: flex;
+position: absolute;
+color: rgba(255, 255, 255, 0.602);
+font-size: 40px;
+cursor: pointer;
+top:50%;
+padding: 20px;
+transform: translate(0,-50%);
+transition: .5s ease;
+user-select: none;
+}
+
+.btn_L{
+left: 30px;
+}
+
+.btn_R{
+right: 30px;
+}
+
+.slide h2{
+    font-family: 'Gluten';
+    font-size: 60px;
+    padding-left: 130px;
+    width: 700px;
+    color: white;
+}
+/*------------ fn SLIDER PRINCIPAL --------------*/
+
+/*--------------- ACERCA DE ----------------*/
+.acerca_de{
+    font-family: 'Comic Neue';
+    display:flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 45px;
+}
+
+.acerca_de .parrafo_centrado{
+    display: flex;
+    font-size: 40px;
+    width: 45%;
+    color: #3C8491;
+    text-align: center;
+}
+
+.tarjetas-1{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 45px;
+    font-size: 22px;
+}
+
+.tarjeta{
+    border-style: solid;
+    border-width: 5px;
+    padding: 30px;
+    border-radius: 15px;
+    width: 100%;
+    color: #3C8491;
+}
+
+.tarjeta i{
+    font-size: 45px;
+}
+
+#primera-tarjeta{
+    border-color: #F6CB2C;
+}
+
+#segunda-tarjeta{
+    border-color:#3C8491;
+}
+
+#tercera-tarjeta{
+    border-color: #6D973F;
+}
+
+#cuarta-tarjeta{
+    border-color: #E59600;
+}
+/*--------------- fn ACERCA DE -------------*/
+
